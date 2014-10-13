@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_marginLeft="18dp"
+        android:text="@string/quiz_qno"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txtcolor" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:clickable="false"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="15dp" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_ans1" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_ans2" />
+        
+        <RadioButton android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_ans3" />
+
+        <RadioButton android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_ans4"/>
+        
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/editText1"
+        android:text="@string/quiz_ques"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txtcolor" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_marginBottom="31dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/quiz_stop"
+        android:textColor="@color/txtcolor" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/radioGroup1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginRight="17dp"
+        android:text="@string/quiz_next"
+        android:textColor="@color/txtcolor" />
+
+</RelativeLayout>

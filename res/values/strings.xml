@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EQ &amp; IQ Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Username</string>
+    <string name="u_name">Enter your username</string>
+    <string name="password">Password</string>
+    <string name="pwd">Enter password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up here!</string>
+    <string name="exit">Exit</string>
+
+    <color name="bgcolor">#E4D5A3</color>
+    <color name="txtcolor">#ffffff</color>
+
+    <string name="reg_name">Name</string>
+    <string name="reg_name_hint">Enter your name</string>
+    <string name="reg_email">email</string>
+    <string name="reg_email_hint">Enter your email</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_pwd_hint">Enter password</string>
+    <string name="reg_password2">Re-Password</string>
+    <string name="reg_pwd2_hint">Enter password</string>
+    <string name="reg_submit">Submit</string>
+    <string name="reg_exit">Exit</string>
+    <string name="home_intro">Introduction</string>
+    <string name="home_quiz">Attempt Quiz</string>
+    <string name="home_help">Help!</string>
+    <string name="home_exit">Exit</string>
+    <string name="quiz_qno">Question Number:</string>
+    <string name="quiz_ques">Question:</string>
+    <string name="quiz_prev">Prev</string>
+    <string name="quiz_stop">Stop</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_submit">Submit</string>
+    <string name="quiz_ans1">Answer1</string>
+    <string name="quiz_ans2">Answer2</string>
+    <string name="quiz_ans3">Answer3</string>
+    <string name="quiz_ans4">Answer4</string>
+    <string name="quiz_ans5">Answer5</string>
+    <string name="sumry_submit">Submit</string>
+    <string name="sumry_return">Return To Attempt</string>
+    <string name="sumry_title">Attempt Summary</string>
+    <string name="result_title">Your Result is..</string>
+    <string name="result_back_to_home">Back to Home</string>
+    <string name="result_hint">Result</string>
+    <string name="intro_eq">EQ Introduction</string>
+    <string name="intro_iq">IQ Introduction</string>
+        
+    <string name="helpinfo">On home screen there will be 4 options to select. User can choose any of them.
+        First option Introduction will lead to a window that will give user a choice of EQ
+and IQ both.After selecting any of the one from above options the detailed information about
+the selected choice will be displayed to user.The second option Attempt Quiz will lead to a window that will give user a choice
+of EQ and IQ both to start the respective quiz.If user selects an IQ quiz, he or she will be redirected to a new window where user
+will have to enter his or her birthdate. Start quiz button is provided at the bottom of the
+screen to start the quiz and now user can give the test for an IQ.If user selects EQ quiz, the quiz will start and now he/she can give the test for an
+EQ. Once quiz started, A qustion number, Question and 4(for IQ) or 5(for EQ) choices of
+answer will be displayed from which user will have to select one. And click Next
+button for the next question. He or she can go to the previous question by clicking Prev button. There is also Stop
+button to stop the quiz. After user attempts his last question a list of his or her answered and unanswered
+questions will be displayed. When user clicks Submit button the final result will be displayed. From here user can go to home screen by clicking Home screen button.
+User can exit from the application by clicking exit button on home screen. </string>
+
+<string name="iq_text">IQ is an intelligent quotient.An Intelligence Quotient (IQ) is a score derived from one of
+several standardized tests designed to assess intelligence. There are many different
+kinds of IQ tests used to find out persons IQ. Some tests are visual, some are
+verbal, some tests only use abstract-reasoning problems, and some tests
+concentrate on arithmetic, spatial imagery, reading, vocabulary, memory or general
+knowledge.
+IQ can change to some degree over the course of childhood. A
+IQ test is not something for which a person can study. It test does not measure the
+quantity of your knowledge but rather measures a persons general intellectual
+ability to understand ideas, as compared to the general population at the same
+developmental level. How well we reason, distinguish relationships and solve
+problems are the kinds of things the test aims to discern. An IQ test also measures
+how well we process information, particularly our ability to store and retrieve it.
+    For IQ the ranges are:
+140 above Genius
+100-140 Intelligent
+71-99 Average
+50-70 Below Average
+Below 50  Dumb </string>
+    
+
+
+
+
+
+
+
+        
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="eq_text">EQ is geneerally how the person understands emotions or situations and act appropriately.
+How an individual face a situation with understandning it and acting properly.
+An Emotional Quotient can be strengthen and improved by emplementing EQ assignments.
+There are three models which are developed for calculating the EQ.
+1.ability model which focusses on individuals ability to process emotional information and 
+use it to navigate the social environment. 
+2.trait model focuses on behavioral dispositions and self perceived abilities and is measured through self report. 
+3.The finan model is the mixed model is a combination of both ability and trait EI. 
+It defines EI as an array of skills and characteristics that drive leadership performance
+A factor that affects our EI is Mental Health.
+Mental Health:
+Mental health (or behavioral health) is a level of psychological well-being, or
+an absence of a mental disorder. it is the "psychological state of someone who
+is functioning at a satisfactory level of emotional and behavioral adjustment.
+There are many assumptions about emotional intelligence and age.
+some parts of emotional intelligence (EQ) do
+increase with age, though the effect is slight; in addition there are elements of EQ that do not
+increase with age indicating some competencies must be developed through training.
+
+Calculation:
+There are three Categories of the EQ
+1.Above avarage
+2.below avarage
+3.avarage</string>
+    <string name="title_activity_answers_list">AnswersListActivity</string>
+    <string name="title_activity_activity_iqlist">Activity_iqlist</string>
+    <string name="title_activity_iqlist">Iqlist</string>
+    
+    
+    <string name="bdate">Enter Your Birth Date</string>
+    <string name="day">Day:</string>
+    <string name="month">Month:</string>
+   <string name="year">Year:</string>
+   <string name="start">Start Quiz!!</string> 
+   
+   <string name="iqresult">Your IQ is!</string>
+    <string name="eqresult">Your EQ is!</string>
+
+</resources>

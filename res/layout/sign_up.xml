@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/reg_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txtcolor" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="@string/reg_name_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="22dp"
+        android:text="@string/reg_email"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txtcolor" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="@string/reg_email_hint" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_centerVertical="true"
+        android:text="@string/reg_password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txtcolor" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:hint="@string/reg_pwd_hint"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/reg_password2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txtcolor" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="@string/reg_pwd2_hint"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:text="@string/reg_submit"
+         
+        />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="@string/reg_exit" />
+
+</RelativeLayout>

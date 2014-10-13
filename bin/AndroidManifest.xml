@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eqiqcalculator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.eqiqcalculator.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.EQIntro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.IQIntro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.QuizIq"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.QuizEq"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.CheckList"
+            android:label="@string/title_activity_answers_list" >
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.ResultEQ"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.eqiqcalculator.Iqlist"
+            android:label="@string/title_activity_iqlist" >            
+        </activity>
+        
+        <activity
+            android:name="com.example.eqiqcalculator.BirthDate"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name="com.example.eqiqcalculator.ResultIq"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name="com.example.eqiqcalculator.Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+    </application>
+
+</manifest>
